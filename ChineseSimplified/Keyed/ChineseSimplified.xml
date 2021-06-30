@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<LevelLimits>各兴趣度的技能上限:</LevelLimits>
+	<NoPassion>无 </NoPassion>
+	<HalfPassion>好奇 </HalfPassion>
+	<FullPassion>狂热 </FullPassion>
+	<LevelLimitsNote>当技能处在或高于设定等级时，属于“瓶颈"状态。</LevelLimitsNote>
+	<XPDecay>“瓶颈"状态/以下是否流失经验?</XPDecay>
+	<BelowDecay>“瓶颈"以下流失经验</BelowDecay>
+	<AboveDecay>“瓶颈"状态流失经验</AboveDecay>
+	<XPDecayNote>“瓶颈"状态下经验会流失至设定等级的最低点(即0/升级经验)。\n无论设置为何，经验流失都会在技能降至9级时停止，因为原版的设定就是这样。</XPDecayNote>
+	<CapStyle>突破技能上限设定</CapStyle>
+	<NoLevelCap>不设限</NoLevelCap>
+	<NoLevelCapNote>一如原版可直升至20级。\n推荐搭配经验流失设定在“瓶颈“状态下使用。</NoLevelCapNote>
+	<SoftLevelCap>停止升级</SoftLevelCap>
+	<SoftLevelCapNote>一旦抵达技能上限，除了使用技能训练器外无法提升技能等级，但仍可获得经验。\n好处是在使用技能训练器提升等级后不会因为当前经验为0而立刻降级。</SoftLevelCapNote>
+	<HardLevelCap>停止经验获取</HardLevelCap>
+	<HardLevelCapNote>一旦抵达技能上限，除技能训练器外所有方法都无法获取经验。\n该选项将极大增加突破上限的成本，高度强调兴趣的作用。</HardLevelCapNote>
+	<CapStyleNote>技能训练器无论如何都给予技能经验，并能使技能突破限制。</CapStyleNote>
+	<BetterGoodMemoryNote>"过目不忘"原效果为减半经验流失速率，如若你禁用了经验流失可启用以下选项赋予其新效果。\n其效果取决于"突破技能上限设定"的设定。</BetterGoodMemoryNote>
+	<BetterGoodMemoryNoteNoLevelCap>拥有该特性的人经验获取正常。\n没有该特性的人处于"瓶颈"状态期间仅获取一半经验。</BetterGoodMemoryNoteNoLevelCap>
+	<BetterGoodMemoryNoteSoftLevelCap>拥有该特性的人经验获取正常。\n没有该特性的人处于"瓶颈"状态期间仅获取一半经验。</BetterGoodMemoryNoteSoftLevelCap>
+	<BetterGoodMemoryNoteHardLevelCap>拥有该特性的人处于"瓶颈"状态期间仅获取一半经验。\n没有该特性的人处于"瓶颈"状态期间停止经验获取。</BetterGoodMemoryNoteHardLevelCap>
+	<BetterGoodMemory>"过目不忘"新效果</BetterGoodMemory>
+</LanguageData>
